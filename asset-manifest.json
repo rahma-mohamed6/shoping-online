@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/shoping-online/static/css/main.103f7f37.css",
+    "main.js": "/shoping-online/static/js/main.2c10c9f9.js",
+    "static/js/453.2be09ecd.chunk.js": "/shoping-online/static/js/453.2be09ecd.chunk.js",
+    "static/media/slide-1.webp": "/shoping-online/static/media/slide-1.c4a81f50b414c8a83765.webp",
+    "static/media/slick.svg": "/shoping-online/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/shoping-online/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/shoping-online/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/shoping-online/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/shoping-online/index.html",
+    "main.103f7f37.css.map": "/shoping-online/static/css/main.103f7f37.css.map",
+    "main.2c10c9f9.js.map": "/shoping-online/static/js/main.2c10c9f9.js.map",
+    "453.2be09ecd.chunk.js.map": "/shoping-online/static/js/453.2be09ecd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.103f7f37.css",
+    "static/js/main.2c10c9f9.js"
+  ]
+}

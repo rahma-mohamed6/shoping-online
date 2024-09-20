@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  outline: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container .box .icon {
+  top: 0;
+  right: -50px;
+  transition: 0.4s;
+}
+.container .box:hover .icon {
+  right: 15px;
+}
+.empty h2{
+    background-image: linear-gradient(to right , #94A3B8,#94A3B8, rgb(151, 99, 4) ,rgb(151, 99, 4) ,orange);
+    background-clip: text; 
+    color:transparent
+}

@@ -1,0 +1,100 @@
+* {
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+.home {
+  height: 80vh;
+  position: relative;
+}
+.top-banner {
+  background-image: url("/public/image/slide-1.webp");
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  width: 100%;
+  height: 100%;
+  transition: 0.7s background-image;
+  position: relative;
+}
+.top-banner::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.129);
+  transition: 0.7s;
+}
+.top-banner::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.129);
+  transition: 0.7s;
+}
+.top-banner:hover::after {
+  height: 0;
+}
+.top-banner:hover::before {
+  height: 0;
+}
+.container-up{
+    top:20%
+}
+.left-box{
+    width: 100%;
+} 
+.products .container{
+ 
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  grid-gap:10px;
+}
+.products .box img{
+  width: 90%;
+  height: 90%;
+}
+.products .box .icon{
+  
+  top:10%;
+  right: -50px;
+}
+.products .box .icons{
+  padding: 5px;
+  font-size: 20px;
+
+}
+.products .box:hover .icon{
+  right:10px;
+}
+
+.right-box .container
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(500px , 1fr));
+  
+}
+.product-type .container .box .box{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(100px ,1fr));
+  flex-direction: row;
+  height: 100px;
+  position: relative;
+  box-shadow: 2px 2px 2px #eee;
+
+}
+.product-type .container .box .box  img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+}

@@ -1,0 +1,38 @@
+@media(max-width:796px){
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    .banner .container{
+        grid-template-columns: repeat(500px ,1fr);
+    }
+    .top-banner{
+        padding: 10px !important;
+    }
+    .top-banner .container{
+        padding: 10px !important;
+    }
+    .ourtext .container{
+        padding: 50px 0;
+        gap: 0;
+        overflow: hidden;
+    }
+    .ourtext .container .img-box{
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+    .ourtext .container .img-box img{
+        width: 100%;
+    }
+    .ourtext .container .info p{
+        flex-wrap: wrap;
+       width: 90%;
+      margin: 0 auto;
+    }
+    .product-type .container{
+        display: grid !important;
+        grid-template-columns: repeat(auto-fit,minmax(300px ,1fr))!important;
+    }
+}

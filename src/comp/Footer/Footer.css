@@ -1,0 +1,17 @@
+*{
+    border:none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+footer{
+    width: 100%;
+
+}
+.cont{
+   max-width:100%;
+   word-break: break-all;
+}

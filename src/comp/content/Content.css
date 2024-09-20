@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:none;
+    outline: none;
+    text-transform: capitalize;
+    text-decoration: none;
+} 
+.POST{
+    width: 50%;
+   border-top: 2px solid orange;
+   background-color: #fefdfd;
+   height: fit-content;
+}
+
+.POST .box input , textarea{
+    width: 70%;
+    box-shadow: 2px 2px 2px #eee;
+    
+}
+.POST .box input:focus{
+    border:1px solid green
+}
+.POST .box textarea:focus{
+    border:1px solid green
+}
+
